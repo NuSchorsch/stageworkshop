@@ -1,16 +1,11 @@
 #!/usr/bin/env bash
 
 # Example use from a Nutanix CVM:
-# curl --remote-name --location https://raw.githubusercontent.com/nutanixworkshops/stageworkshop/master/bootstrap.sh && sh ${_##*/}
+# curl --remote-name --location https://raw.githubusercontent.com/NuSchorsch/stageworkshop/master/bootstrap.sh && sh ${_##*/}
 #
-# Development/Beta version
-# curl --remote-name --location https://raw.githubusercontent.com/jncox/stageworkshop/master/bootstrap.sh && sh ${_##*/}
-#
-# For testing:
-# curl --remote-name --location https://raw.githubusercontent.com/mlavi/stageworkshop/master/bootstrap.sh && SOURCE=${_} sh ${_##*/}
 
 if [[ -z ${SOURCE} ]]; then
-  ORGANIZATION=nutanixworkshops
+  ORGANIZATION=NuSchorsch
     REPOSITORY=stageworkshop
         BRANCH=master
 else
