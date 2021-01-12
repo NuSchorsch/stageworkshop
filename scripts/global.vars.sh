@@ -11,15 +11,14 @@ NTNX_INIT_PASSWORD='nutanix/4u'
 PRISM_ADMIN='admin'
 SSH_PUBKEY="${HOME}/.ssh/id_rsa.pub"
 STORAGE_POOL='SP01'
-STORAGE_DEFAULT='Default'
-STORAGE_IMAGES='Images'
+STORAGE_DEFAULT='VMs'
+STORAGE_IMAGES='VMs'
 STORAGE_ERA='Era'
 ATTEMPTS=40
 SLEEP=60
 PrismOpsServer='PrismOpsLabUtilityServer'
 SeedPC='seedPC.zip'
 CALM_RSA_KEY_FILE='calm_rsa_key.env'
-
 Citrix_Blueprint='CitrixBootcampInfra.json'
 Beam_Blueprint=''
 Karbon_Blueprint='KarbonClusterDeployment.json'
@@ -75,22 +74,6 @@ Oracle_19c_SourceVM_Image6="19c-disk6"
 Oracle_19c_SourceVM_Image7="19c-disk7"
 Oracle_19c_SourceVM_Image8="19c-disk8"
 Oracle_19c_SourceVM_Image9="19c-disk9"
-
-####################################################
-# 3rd Party images used at GTS or Add-On Labs
-###################################################
-#Peer Software
-PeerMgmtServer='Windows2016-PeerMgmt-18feb20'
-PeerAgentServer='Windows2016-PeerAgent-18feb20'
-PMC="PeerMgmt"
-AGENTA="PeerAgent-Files"
-AGENTB="PeerAgent-Win"
-
-#Hycu
-HycuServer='HYCU-4.0.3-Demo'
-
-#Veeam
-VeeamServer=''
 
 ##################################
 #
